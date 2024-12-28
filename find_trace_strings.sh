@@ -6,7 +6,8 @@
 #
 # Usage:   ./find_vm_strings.sh [SOURCE_DIRECTORY]
 #
-#This is a script to find any potential giveaways
+#This is a script to find any potential giveaways!
+#You can output the results into an LLM, or manually write a script to actually remove them.
 
 # Default to current directory if no path is provided
 SEARCH_DIR="${1:-.}"
